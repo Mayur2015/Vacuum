@@ -296,7 +296,7 @@ def run_bot(smartApi, symbols):
     last_max_pain = max_pain
 
     print("Time:", time_str, "| PCR:", round(pcr,2))
-
+    print("Checking Telegram...")
     check_commands()
 
 
